@@ -7,6 +7,8 @@ import { HomeComponent } from './Components/home/home.component';
 import { HeaderComponent } from './Components/header/header.component';
 import { ContactUsComponent } from './Components/contact-us/contact-us.component';
 import { FeaturesComponent } from './Components/features/features.component';
+import { ProductService } from 'src/services/product.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -20,9 +22,12 @@ import { FeaturesComponent } from './Components/features/features.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
-  providers: [],
+  providers: [
+    ProductService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
