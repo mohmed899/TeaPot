@@ -1,0 +1,26 @@
+
+.container{
+color:white;
+}
+.leftSection{
+    margin-left: 5em;
+    margin-top: 2em;
+    background-color: rgb(19, 19, 19);
+    height: 20em;
+}
+form{
+    margin-left: 2em;
+  
+}
+.label{
+    margin-top: 1.5em;
+    margin-bottom: .3em;
+    font-size: 1.2em;
+}
+input,textarea{
+    background-color:rgb(19, 19, 19);
+    border: .05em solid white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
