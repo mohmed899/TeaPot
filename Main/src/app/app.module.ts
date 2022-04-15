@@ -10,7 +10,10 @@ import { FeaturesComponent } from './Components/features/features.component';
 import { ProductService } from 'src/services/product.service';
 import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import {MatNativeDateModule} from '@angular/material/core';
+import {MatTabsModule} from '@angular/material/tabs';
+import { ProductItemComponent } from './Components/product-item/product-item.component';
+import { ProductComponent } from './Components/product/product.component';
 
 @NgModule({
   declarations: [
@@ -19,13 +22,17 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     HomeComponent,
     HeaderComponent,
     ContactUsComponent,
-    FeaturesComponent
+    FeaturesComponent,
+    ProductItemComponent,
+    ProductComponent,
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatNativeDateModule,
   ],
   providers: [
     ProductService
