@@ -33,6 +33,7 @@ import { ProductComponent } from './Components/product/product.component';
     HttpClientModule,
     BrowserAnimationsModule,
     MatNativeDateModule,
+    MatTabsModule
   ],
   providers: [
     ProductService
