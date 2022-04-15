@@ -9,6 +9,7 @@ import { ContactUsComponent } from './Components/contact-us/contact-us.component
 import { FeaturesComponent } from './Components/features/features.component';
 import { ProductService } from 'src/services/product.service';
 import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -23,7 +24,8 @@ import { HttpClientModule } from '@angular/common/http';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [
     ProductService
