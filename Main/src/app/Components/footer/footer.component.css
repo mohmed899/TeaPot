@@ -1,4 +1,4 @@
-.Container1{
+.Curve1{
   position:absolute;
     bottom:16.8em;
     width:99%;
@@ -7,7 +7,7 @@
     border-color:#000 transparent transparent transparent;
     border-radius: 100%/7em 3em 0 0 ;
 }
-.Container2{
+.Curve2{
   position:absolute;
     bottom:17.5em;
     width:98%;
@@ -24,12 +24,14 @@ footer{
 }
 .section{
   margin-top: 1.7em;
+  margin-left: 3em;
 }
 li{
   color: #A5A6A9;
 font-size: .9em;
 font-weight: 350;
 margin-top: 1em;
+margin-left: 3em;
 }
 h6{
     font-weight: 450;
