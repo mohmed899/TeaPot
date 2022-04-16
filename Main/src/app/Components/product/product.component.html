@@ -1,5 +1,12 @@
-<mat-tab-group mat-align-tabs="center" #tab (selectedTabChange)="fun($event)" [color]="ff"  >
-    <mat-tab label="All Products" class="mainp" labelClass="mainp" style=" background-color:brown">
+<div style="text-align: center;">
+    <h1>Our Product</h1> 
+    <p> Various type of unique teaPoty Products, minnimalist and best prices </p>
+
+</div>
+
+
+<mat-tab-group mat-align-tabs="center" #tab (selectedTabChange)="fun($event)"  >
+    <mat-tab label="All Products" labelClass="mainp" >
         <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>
     </mat-tab>
     <mat-tab label="Ceramic">
