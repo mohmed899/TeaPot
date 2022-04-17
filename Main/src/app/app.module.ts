@@ -14,6 +14,7 @@ import {MatNativeDateModule} from '@angular/material/core';
 import {MatTabsModule} from '@angular/material/tabs';
 import { ProductItemComponent } from './Components/product-item/product-item.component';
 import { ProductComponent } from './Components/product/product.component';
+import { WelcomeComponent } from './Components/welcome/welcome.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { ProductComponent } from './Components/product/product.component';
     FeaturesComponent,
     ProductItemComponent,
     ProductComponent,
+    WelcomeComponent,
     
   ],
   imports: [

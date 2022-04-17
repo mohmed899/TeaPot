@@ -25,11 +25,15 @@
 	transform: translateY(-70%);
 }
 .container{
-    height:  auto;
-	opacity: 75%;
+    height: auto;
+	
 	
 }
 
+
+.bgWelcom{
+    opacity: 75%;
+}
 
 .newslatter form{
 	width: 320px;
