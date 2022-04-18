@@ -19,6 +19,7 @@ import { WelcomeComponent } from './Components/welcome/welcome.component';
 import { ProductDetailsComponent } from './Components/product-details/product-details.component';
 
 import { ItemCategoryComponent } from './Components/item-category/item-category.component';
+import { CategoryComponent } from './Components/category/category.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { ItemCategoryComponent } from './Components/item-category/item-category.
     ProductDetailsComponent,
 
     ItemCategoryComponent,
+      CategoryComponent,
 
     
   ],
