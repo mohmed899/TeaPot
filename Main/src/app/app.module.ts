@@ -15,6 +15,7 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { ProductItemComponent } from './Components/product-item/product-item.component';
 import { ProductComponent } from './Components/product/product.component';
 import { WelcomeComponent } from './Components/welcome/welcome.component';
+import { ItemCategoryComponent } from './Components/item-category/item-category.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { WelcomeComponent } from './Components/welcome/welcome.component';
     ProductItemComponent,
     ProductComponent,
     WelcomeComponent,
+    ItemCategoryComponent,
     
   ],
   imports: [
