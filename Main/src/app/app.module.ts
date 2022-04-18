@@ -15,11 +15,11 @@ import {MatTabsModule} from '@angular/material/tabs';
 import { ProductItemComponent } from './Components/product-item/product-item.component';
 import { ProductComponent } from './Components/product/product.component';
 import { WelcomeComponent } from './Components/welcome/welcome.component';
-<<<<<<< HEAD
+
 import { ProductDetailsComponent } from './Components/product-details/product-details.component';
-=======
+
 import { ItemCategoryComponent } from './Components/item-category/item-category.component';
->>>>>>> 3d8a933e7e954f6fe0bd24f1235638c09282a0b0
+
 
 @NgModule({
   declarations: [
@@ -32,11 +32,11 @@ import { ItemCategoryComponent } from './Components/item-category/item-category.
     ProductItemComponent,
     ProductComponent,
     WelcomeComponent,
-<<<<<<< HEAD
+
     ProductDetailsComponent,
-=======
+
     ItemCategoryComponent,
->>>>>>> 3d8a933e7e954f6fe0bd24f1235638c09282a0b0
+
     
   ],
   imports: [
