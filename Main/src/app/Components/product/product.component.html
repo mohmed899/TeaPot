@@ -1,12 +1,15 @@
-<div style="text-align: center;">
-    <h1>Our Product</h1> 
-    <p> Various type of unique teaPoty Products, minnimalist and best prices </p>
 
+    <h1 class="text-center fontmain mt-5">Our Product</h1> 
+    <p class="text-center fontSecandry"> Various type of unique teaPoty Products </p>
+    <p class="text-center fontSecandry mb-3">minnimalist and best prices</p>
+
+
+
+<div class="mainp">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium est culpa magni ea error? Fuga quo amet pariatur quasi vero officiis fugit ullam necessitatibus repudiandae eveniet, repellendus sint nulla cum.
 </div>
-
-
 <mat-tab-group mat-align-tabs="center" #tab (selectedTabChange)="fun($event)"  >
-    <mat-tab label="All Products" labelClass="mainp" >
+    <mat-tab label="All Products"  bodyClass="mainp" >
         <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>
     </mat-tab>
     <mat-tab label="Ceramic">
