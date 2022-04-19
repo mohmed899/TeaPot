@@ -1,3 +1,26 @@
 .mainp{
-    display: none;
+    background-color: blue;
 }
+
+.fontmain {
+    font-family: Garamond, serif;
+    font-weight: 700;
+    font-size: xxx-large;
+}
+.fontSecandry {
+    font-family: Verdana, sans-serif;
+    margin: 0%;
+    font-size: large;
+    color: #706f82;
+}
+.mat-tab-body{
+    background-color: rgb(94, 255, 0);
+}
+.mat-tab-body.mat-tab-body-active {
+    background-color: darkgoldenrod;
+}
+
+
+
+
+

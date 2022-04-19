@@ -1,0 +1,30 @@
+.title {
+    
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2em;
+    font-weight: 500;
+
+    
+  }
+  
+  
+  .title:before {
+    display: none;
+  }
+  
+
+.fontSecandry {
+    font-family: Verdana, sans-serif;
+    margin: 0%;
+    font-size: large;
+    color: #706f82;
+}
+
+
+
+
+.warper{
+  display: flex;
+  overflow-x: auto;
+}

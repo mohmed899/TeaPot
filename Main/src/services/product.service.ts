@@ -8,12 +8,16 @@ export class ProductService {
 
   constructor(private httpC:HttpClient) { }
 
-  
+        
   getByCategory(cat:string ){
-    return this.httpC.get(`http://localhost:3000/pro?cat=${cat}`)
+    return this.httpC.get(`/pro?cat=${cat}`)
  }
 
  getAll(){
    return this.httpC.get(`http://localhost:3000/pro`)
+}
+
+getById(Id:any){
+  return this.httpC.get(`http://localhost:3000/pro/${Id}`)
 }
 }

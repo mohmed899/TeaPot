@@ -1,0 +1,128 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+<link rel="stylesheet" href="./product-details.component.css">
+<!-- 
+<div *ngFor="let p of pots" class="container-fluid mt-5">
+  <div *ngFor="let i of pots[0].image">
+    <img class="img-thumbnail w-100 d-block"
+    src="{{i}}"
+    alt="Slide Image" loading="lazy">
+  </div>
+</div> -->
+
+
+
+
+
+  <div class="row">
+    <div class="col-md-5">
+
+      <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+        <div class="carousel-inner" role="listbox">
+
+       
+          <div class="carousel-item active"><img class="img-thumbnail w-100 d-block"
+              src="{{product.image[0]}}"
+              alt="Slide Image" loading="lazy"></div>
+
+
+              <div class="carousel-item active"><img class="img-thumbnail w-100 d-block"
+                src="{{product.image[0]}}"
+                alt="Slide Image" loading="lazy"></div>
+                
+          <div class="carousel-item active"><img class="img-thumbnail w-100 d-block"
+            src="{{product.image[0]}}"
+            alt="Slide Image" loading="lazy"></div>
+
+        </div>
+        <div>
+          <button class="carousel-control-prev" href="#carousel-1" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Previous</span>
+          </button>
+          <button class="carousel-control-next" href="#carousel-1" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Next</span>
+          </button>
+        </div>
+        <ol class="carousel-indicators">
+          <li data-bs-target="#carousel-1" data-bs-slide-to="0" class="active"></li>
+          <li data-bs-target="#carousel-1" data-bs-slide-to="1"></li>
+          <li data-bs-target="#carousel-1" data-bs-slide-to="2"></li>
+        </ol>
+      </div>
+    </div>
+    <div class="col-md-7">
+      <h4>{{product.name}}</h4>
+      <div class="price"><span class="me-2"><i class="fa fa-rupee text-success"></i> 300</span><span
+          class="me-2 cut">500</span><span class="text-success">25% OFF</span></div>
+      <div class="d-flex flex-row">
+        <div class="icons me-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
+            class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></div><span>1200 ratings &amp; 564 reviews</span>
+      </div>
+      <div class="d-flex align-items-center mt-4 offers mb-1"><i class="fa fa-check-square-o mt-1"></i><span
+          class="ms-1 fw-bold">Bank Offers</span><span class="ms-1">20% Instant Discount on ALEXBANK Credit
+          Cards<br></span></div>
+      <div class="d-flex align-items-center offers mb-1"><i class="fa fa-check-square-o mt-1"></i><span
+          class="ms-1 fw-bold"></span><span class="ms-1">{{product.features[3]}}<br></span></div>
+      <div class="d-flex align-items-center offers mb-1"><i class="fa fa-check-square-o mt-1"></i><span
+          class="ms-1 fw-bold"></span><span class="ms-1">{{product.features[2]}}<br></span></div>
+      <div class="d-flex align-items-center offers"><i class="fa fa-check-square-o mt-1"></i><span
+          class="ms-1 fw-bold"></span><span class="ms-1">{{product.features[1]}}<br></span></div>
+      <div class="d-flex align-items-center offers"><i class="fa fa-check-square-o mt-1"></i><span
+          class="ms-1 fw-bold"></span><span class="ms-1">{{product.features[0]}}<br></span></div>
+      <div class="d-flex align-items-center mt-5 delivery"><i class="fa fa-map-marker"></i><span class="ms-2">Delivery
+          by 26 Aprial, Tuesday<br></span><span class="ms-2 me-2">|<br></span><span
+          class="ms-2 me-2 text-success">FREE<br></span></div>
+      <hr>
+      <div class="d-flex align-items-center" >
+          <label class="radio"> 
+            <input type="radio" name="color" value="white"
+            checked>
+            <span style="color: Black;">white</span>
+          </label>
+          <label class="radio"> 
+            <input type="radio" name="color" value="Black"
+            checked>
+             <span style="color: Black;">Black</span>
+          </label>
+       </div>
+      <div class="mt-3 "><span class="fw-bold">Seller:</span>
+        <span class="ms-2"><a href="#">{{product.Brand[0]}}</a> </span>
+      <a href="#" ><img class="img-thumbnail w-10 d-block" src="{{product.Brand[1]}}"
+          alt="Brand Image"></a></div>
+    
+      <div class="mt-1 col-md-offset-4 col-md-offset-3"><button class="btn btn-dark me-2" type="button"><span class="glyphicon glyphicon-shopping-cart"></span>ADD TO CART</button><button class="btn btn-success" type="button">BUY NOW</button></div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+<!-- 
+
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div   *ngFor=" let imgSrc of pots[0]"       class="carousel-item active">
+      <img class="d-block w-100" src= "{{imgSrc}}" alt="First slide">
+    </div>
+  
+   
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> -->

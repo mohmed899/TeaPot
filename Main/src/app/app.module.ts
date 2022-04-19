@@ -16,6 +16,12 @@ import { ProductItemComponent } from './Components/product-item/product-item.com
 import { ProductComponent } from './Components/product/product.component';
 import { WelcomeComponent } from './Components/welcome/welcome.component';
 
+import { ProductDetailsComponent } from './Components/product-details/product-details.component';
+
+import { ItemCategoryComponent } from './Components/item-category/item-category.component';
+import { CategoryComponent } from './Components/category/category.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -27,6 +33,12 @@ import { WelcomeComponent } from './Components/welcome/welcome.component';
     ProductItemComponent,
     ProductComponent,
     WelcomeComponent,
+
+    ProductDetailsComponent,
+
+    ItemCategoryComponent,
+      CategoryComponent,
+
     
   ],
   imports: [
