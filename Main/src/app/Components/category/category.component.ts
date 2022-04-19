@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { CategoryService } from 'src/services/category.service';
 
 @Component({
   selector: 'app-category',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoryComponent implements OnInit {
 
-  constructor() { }
- cats = ["cat1","cat2","cat3","cat1","cat2","cat3","cat1","cat2","cat3","cat1","cat2","cat3","cat1","cat2","cat3"]
+  constructor( private Handel:CategoryService ) { }
+ cats : any 
   ngOnInit(): void {
+     this.Handel.getAll().subscribe(
+       (data)=>{this.cats=data},
+       (e)=>{console.log(e)}
+    )
   }
 
 }

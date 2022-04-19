@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 import { ProductService } from 'src/services/product.service';
 
 @Component({
@@ -9,19 +10,14 @@ import { ProductService } from 'src/services/product.service';
 export class ProductDetailsComponent implements OnInit {
 
   
-
-
-
-
-
   @Input() PotInfo:any;
 
-  constructor(private PotService : ProductService) { }
+  constructor(private PotService : ProductService ,private CurntLink:ActivatedRoute) { }
   //property for pots data
-  pots:any
+  product:any
     ngOnInit(): void {
-      this.PotService.getAll().subscribe(
-        (data)=>{this.pots=data},
+      this.PotService.getById(this.CurntLink.snapshot.params["id"]).subscribe(
+        (data)=>{this.product=data},
         (errorr)=>{console.log(errorr)}
       )
     }
