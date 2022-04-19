@@ -6,18 +6,26 @@ import { HttpClient } from '@angular/common/http';
 })
 export class ProductService {
 
-  constructor(private httpC:HttpClient) { }
+  constructor(private httpC: HttpClient) { }
 
-        
-  getByCategory(cat:string ){
+
+  getByCategory(cat: string) {
     return this.httpC.get(`/pro?cat=${cat}`)
- }
+  }
 
- getAll(){
-   return this.httpC.get(`http://localhost:3000/pro`)
-}
+  getAll() {
+    return this.httpC.get(`http://localhost:3000/pro`)
+  }
 
-getById(Id:any){
-  return this.httpC.get(`http://localhost:3000/pro/${Id}`)
-}
+  getById(Id: any) {
+    return this.httpC.get(`http://localhost:3000/pro/${Id}`)
+  }
+
+  delete( Id:any){
+    return this.httpC.delete(`http://localhost:3000/pro/${Id}`);   
+  }
+
+  add( obj:any ){
+    return this.httpC.post("http://localhost:3000/pro",obj)
+  }
 }

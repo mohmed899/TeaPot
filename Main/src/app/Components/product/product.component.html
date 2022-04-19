@@ -10,13 +10,13 @@
 </div>
 <mat-tab-group mat-align-tabs="center" #tab (selectedTabChange)="fun($event)"  >
     <mat-tab label="All Products"  bodyClass="mainp" >
-        <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>
+        <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
     </mat-tab>
     <mat-tab label="Ceramic">
-        <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>
+        <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
     </mat-tab>
     <mat-tab label="Porcelain">
-        <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>
+        <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
     </mat-tab>
     <mat-tab label="Frangipani">
         <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>

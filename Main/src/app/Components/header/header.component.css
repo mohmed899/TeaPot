@@ -1,5 +1,26 @@
+.nav-link {
+	color: #696869;
+}
+.navbar-nav{
+    justify-content: space-between;
+    width: 100%;
+    padding: 2em;
+}
+.teaItem{
+	font-size: 2rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: #696869;
 
+}
+.spanPot{
+	font-size: 2rem;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: brown;
 
+}
+.welcom{
+	flex-wrap: wrap;
+}
 .right{
     display:flex;
      
@@ -42,9 +63,9 @@
 	display: inline-block;
 	width: 100%;
 	padding: 14px 130px 14px 15px;
-    background-color: #0c0909;
-    color: antiquewhite;
-	border: 2px solid antiquewhite;
+    
+	color: #696869;
+
 	outline: none;
 	border-radius: 30px;
 
@@ -71,13 +92,13 @@
 
 .num100{
     display: inline;
-    color: antiquewhite;
+    color:  #696869;
 }
 .span100{
  margin-left: 15px;
  margin-top: 7px;
 
- color: azure;
+ color:  #696869;
 }
 
 .imgAll{
@@ -97,7 +118,5 @@
 	border-top-right-radius:50% ;
     border-bottom-right-radius:0;
     border-bottom-left-radius:0;
-
-
 	 
 }

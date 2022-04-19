@@ -1,0 +1,27 @@
+
+
+
+
+
+<div class="bg-light " style="width: 500px;">
+
+    
+<form class="w-50">
+    <div class="form-group">
+      <label >category Name</label>
+      <input type="text" class="form-control"  #cat [value]="productData.name" placeholder="Enter Name">
+    </div>
+    <div class="form-group">
+        <label >Prouduct Name</label>
+        <input type="text" class="form-control" #name  placeholder="Enter Name">
+      </div>
+      <div class="form-group">
+        <label >Price</label>
+        <input type="number" class="form-control" #price  placeholder="Enter Name">
+      </div>
+    <button type="submit" class="btn btn-primary" (click)="AddProduct(cat.value , name.value, price.value)">Submit</button>
+  </form>
+</div>
+
+
+

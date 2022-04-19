@@ -12,6 +12,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatNativeDateModule} from '@angular/material/core';
 import {MatTabsModule} from '@angular/material/tabs';
+import {MatDialogModule} from '@angular/material/dialog';
 import { ProductItemComponent } from './Components/product-item/product-item.component';
 import { ProductComponent } from './Components/product/product.component';
 import { WelcomeComponent } from './Components/welcome/welcome.component';
@@ -20,7 +21,10 @@ import { ProductDetailsComponent } from './Components/product-details/product-de
 
 import { ItemCategoryComponent } from './Components/item-category/item-category.component';
 import { CategoryComponent } from './Components/category/category.component';
-
+import { CrudComponent } from './Components/crud/crud.component';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DialogComponent } from './Components/dialog/dialog.component';
 
 @NgModule({
   declarations: [
@@ -33,11 +37,13 @@ import { CategoryComponent } from './Components/category/category.component';
     ProductItemComponent,
     ProductComponent,
     WelcomeComponent,
-
+   
     ProductDetailsComponent,
 
     ItemCategoryComponent,
       CategoryComponent,
+      CrudComponent,
+      DialogComponent,
 
     
   ],
@@ -47,10 +53,15 @@ import { CategoryComponent } from './Components/category/category.component';
     HttpClientModule,
     BrowserAnimationsModule,
     MatNativeDateModule,
-    MatTabsModule
+    MatTabsModule,
+    MatFormFieldModule,
+    FormsModule,
+    MatDialogModule
+ 
   ],
   providers: [
-    ProductService
+    ProductService,
+    
   ],
   bootstrap: [AppComponent]
 })

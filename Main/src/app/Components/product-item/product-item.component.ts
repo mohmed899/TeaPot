@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ProductService } from 'src/services/product.service';
 
 @Component({
   selector: 'app-product-item',
@@ -7,9 +8,18 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class ProductItemComponent implements OnInit {
 
-  constructor() { }
+  constructor(private habdler :ProductService) { }
   @Input() product:any;
+  @Input() IsUpdatable :any;
   ngOnInit(): void {
+  }
+
+  delete(){
+    
+    this.habdler.delete(this.product.id).subscribe(
+      ()=>{ document.location.reload()},
+      ()=>{}
+    );
   }
 
 }
