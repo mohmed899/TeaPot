@@ -1,0 +1,48 @@
+<div class="bg-light d-flex  " style="width: 500px;">
+
+
+    <form class="w-50 m-auto">
+      <div class="form-group">
+        <label>Prouduct Name</label>
+        <input type="text" class="form-control" #name placeholder="Enter Name" >
+      </div>
+  
+      <div class="form-group">
+        <label>sub Name</label>
+        <input type="text" class="form-control" #subName placeholder="Enter subName">
+      </div>
+  
+      <div class="form-group">
+        <label>Brand</label>
+        <input type="text" class="form-control" #Brand placeholder="Enter Brand">
+      </div>
+  
+      <div class="form-group">
+        <label>Price</label>
+        <input type="number" class="form-control" #price placeholder="Enter Price">
+      </div>
+  
+      <div class="form-group">
+        <label>discount</label>
+        <input type="number" class="form-control" #discount placeholder="Enter discount">
+      </div>
+  
+      <div class="form-group">
+        <label>category Name</label>
+        <input type="text" class="form-control" #cat  placeholder="Enter Name">
+      </div>
+  
+      <div class="form-group">
+        <label>Image</label>
+        <input type="text" class="form-control" #Image placeholder="Enter Image">
+      </div>
+  
+      <div class="form-group">
+        <label>features</label>
+        <textarea type="text" class="form-control" #features placeholder="Enter features"></textarea>
+      </div>
+  
+      <button type="submit" class="btn btn-primary"(click)="AddProduct( cat.value,subName.value,name.value,Brand.value,Image.value,  price.value,features.value, discount.value)">Submit</button>
+      <button type="button" class="btn btn-danger" (click)="CloseModal()">Cancel </button>
+    </form>
+  </div>

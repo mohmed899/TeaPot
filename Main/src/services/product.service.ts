@@ -52,4 +52,8 @@ export class ProductService {
     localStorage.setItem('items', JSON.stringify(this._items)); // sync the data
 
   }
+
+  update( obj:any , Id:any ){
+    return this.httpC.put(`http://localhost:3000/pro/${Id} `,obj)
+  }
 }

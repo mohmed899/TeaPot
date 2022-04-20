@@ -17,7 +17,7 @@ export class ProductComponent implements OnInit {
     this.hand.getAll().subscribe( 
       (data)=>{
         this.products=data
-  
+      console.log(data);
       },
       (e)=>{ console.log(e)}
     )

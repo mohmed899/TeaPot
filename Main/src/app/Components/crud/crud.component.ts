@@ -25,18 +25,22 @@ export class CrudComponent implements OnInit {
      this.handler.getAll().subscribe(
        ( data)=>{
         this.products=data;
+        console.log(this.products);
        },
        (Error)=>{
          console.log(Error)
        }
      )
-    console.log(this.products);
   }
 
  openModal (){
-  this.dialog.open(DialogComponent,{
+  let  dref : MatDialogRef<DialogComponent>;
+ dref =this.dialog.open(DialogComponent,{
+  width: '550px',
+  height:'40em',
+ 
     data:{
-      name:"pro Name"
+      status:"ADD"
     }
   })
  }
