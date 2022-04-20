@@ -2,25 +2,30 @@
 
 
 
- <div class="row">
+  <div class="row">
 
-    <div class="col-6 "> 
-     <H5 class="title"> Our  
-        <span style="text-decoration: line-through">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> 
+    <div class="col-6 ">
+      <H5 class="title"> Our
+        <span style="text-decoration: line-through">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
       </H5>
-     <H5 class="title">Categories</H5>
+      <H5 class="title">Categories</H5>
     </div>
     <div class="col-5 ">
       <p class="fontSecandry"> Various type of unique teaPoty Products </p>
       <p class=" fontSecandry mb-3">searsh for what cagtegory matrial you wants</p>
     </div>
 
- </div>
+  </div>
 
 
- <div class=" warper">
-   
-<app-item-category *ngFor="let cat of cats " [category]="cat"></app-item-category>
- </div>
+
+
+
+<div class="carousel bg-light" data-flickity='{ "groupCells": true }'>
+  <app-item-category [category]="cats[0]"></app-item-category>
+  <app-item-category [category]="cats[1]"></app-item-category>
+  <app-item-category [category]="cats[2]"></app-item-category>
+  <app-item-category [category]="cats[3]"></app-item-category>
+  <app-item-category [category]="cats[4]"></app-item-category>
 
 </div>

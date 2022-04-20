@@ -70,14 +70,29 @@
     }
   ],
   "cat": [
-    "Ceramic",
-    "Porcelain",
-    "Frangipani",
-    "Ceramic",
-    "Porcelain",
-    "Frangipani",
-    "Ceramic",
-    "Porcelain",
-    "Frangipani"
+
+
+
+    {
+      "name":  "Ceramic",
+      "img": "https://cdn.intelligencebank.com/au/share/NOrD/lnPGR/4p0WV/preset=pB6BA/H999AK007_hugo-medium-teapot-black_pdp_p1_hi-res"
+    },
+    {
+      "name":  "Porcelain",
+      "img": "https://images.thdstatic.com/productImages/67f79726-836d-47c5-84f3-d22a724ec865/svn/red-sweese-tea-kettles-teapot-s-rd-64_600.jpg"
+    },
+    {
+      "name":  "Frangipani",
+      "img": "https://jenggala.com/wp-content/uploads/2018/08/A01CO2991-4337B-300x300.jpg"
+    },
+    {
+      "name":  "Stainless steel",
+      "img": "https://cdn11.bigcommerce.com/s-tignxf6kle/images/stencil/1280x1280/products/13287/24933/api3klvol__37647.1607961517.jpg?c=2?imbypass=on"
+    },
+    {
+      "name":  "Glass",
+      "img": "https://m.media-amazon.com/images/I/61cCoctyuNL._SL1050_.jpg"
+    }
+  
   ]
 }
