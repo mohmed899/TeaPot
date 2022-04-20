@@ -5,8 +5,10 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root'
 })
 export class ProductService {
-
-  constructor(private httpC: HttpClient) { }
+  private _items: { icon: string }[] = [];
+  constructor(private httpC: HttpClient) {
+    this._items = JSON.parse(localStorage.getItem('items') || '[]'); // get the data at lunch 
+  }
 
 
   getByCategory(cat: string) {
@@ -21,11 +23,33 @@ export class ProductService {
     return this.httpC.get(`http://localhost:3000/pro/${Id}`)
   }
 
-  delete( Id:any){
-    return this.httpC.delete(`http://localhost:3000/pro/${Id}`);   
+  delete(Id: any) {
+    return this.httpC.delete(`http://localhost:3000/pro/${Id}`);
   }
 
-  add( obj:any ){
-    return this.httpC.post("http://localhost:3000/pro",obj)
+  add(obj: any) {
+    return this.httpC.post("http://localhost:3000/pro", obj)
+  }
+ 
+
+  addItemCart(item: { icon: string; }) {
+    this._items.push(item);
+    this.syncItems();
+  }
+  removeItemCart(item: { icon: string; }){
+    const index = this._items.indexOf(item);
+    this._items.splice(index,1);
+    this.syncItems();
+  }
+  get length(): number {
+    return this._items.length
+  }
+  get items(){
+    return this._items.slice(0)
+  }
+
+  syncItems() {
+    localStorage.setItem('items', JSON.stringify(this._items)); // sync the data
+
   }
 }

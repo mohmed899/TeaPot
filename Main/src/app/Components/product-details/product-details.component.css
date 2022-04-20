@@ -1,36 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
 body {
     background: #fff;
     font-family: 'Roboto Condensed', sans-serif
 }
+
 .carousel-item {
     width: 100%
 }
+
 .price span {
     font-size: 18px
 }
-.price{
+
+.price {
     margin-bottom: 1em;
 }
+
 .cut {
     text-decoration: line-through;
     color: red
 }
+
 .icons i {
     font-size: 17px;
     color: green;
     margin-right: 2px
 }
+
 .offers i {
     color: green
 }
+
 .delivery i {
     color: blue
 }
+
 label.radio {
     cursor: pointer
 }
+
 label.radio input {
     position: absolute;
     top: 0;
@@ -38,6 +48,7 @@ label.radio input {
     visibility: hidden;
     pointer-events: none
 }
+
 label.radio span {
     padding: 2px 11px;
     margin-right: 3px;
@@ -47,11 +58,13 @@ label.radio span {
     border-radius: 3px;
     text-transform: uppercase
 }
+
 label.radio input:checked+span {
     border-color: #8f37aa;
     background-color: #8f37aa;
     color: #fff
 }
+
 .wt-align-items-center {
     align-items: center !important;
     background: #FDEBD2;
@@ -63,27 +76,41 @@ label.radio input:checked+span {
     margin: 1em;
     align-items: flex-start;
 }
-@media only screen and (min-width: 0)
-{
-.wt-display-flex-xs {
-    display: flex !important;
+
+@media only screen and (min-width: 0) {
+    .wt-display-flex-xs {
+        display: flex !important;
+    }
 }
-}
+
 .wt-display-inline-block {
     display: inline-block !important;
 }
-.btn-Prodetails{
+
+.btn-Prodetails {
     border-radius: 5em;
     margin-top: 2em;
     margin-bottom: 1em;
     height: 4em;
     width: auto;
 }
+
 .block-like {
     flex-wrap: wrap;
     align-items: center;
     display: inline-flex;
 }
-.carddiv{
+
+.carddiv {
     width: 170px;
+}
+
+.hearticon {
+    --fa-animation-duration: 0.5s;
+    --fa-beat-scale: 2.0;
+    margin-left: 67rem;
+    color: red;
+    width: 26px;
+    height: 26px;
+
 }

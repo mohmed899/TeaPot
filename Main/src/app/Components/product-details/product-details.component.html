@@ -1,27 +1,43 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" />
+<link data-require="bootstrap-css@3.3.6" data-semver="3.3.6" rel="stylesheet"
+  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.css" />
 <link rel="stylesheet" href="./product-details.component.css">
 
-
+<div class="fa-3x mt-0 col-md-1" style="color: red; margin: 0%;">
+  <i class="animated bounceIn infinite glyphicon glyphicon-heart-empty"
+    style="--fa-beat-scale: 2.0; margin-left: 1rem;">
+  </i>
+</div>
 
 <div class="container-fluid mt-5 glyphicon-align-center mb-5">
+
   <div class="row">
+
     <div class="col-md-5">
 
+
       <div class="carousel slide" data-bs-ride="carousel" id="carousel-1">
+
         <div class="carousel-inner" role="listbox">
-          <div class="carousel-item active"><img class="img-thumbnail w-100 d-block" src="{{product.image[0]}}"
+
+          <div class="carousel-item active img-magnifier-container">
+            <img id="myimage1" class="img-thumbnail w-100 d-block" src="{{product.image[0]}}"
               alt="Slide Image" loading="lazy">
           </div>
-          <div class="carousel-item"><img class="img-thumbnail w-100 d-block" src="{{product.image[1]}}"
+          <div class="carousel-item img-magnifier-container">
+            <img id="myimage2" class="img-thumbnail w-100 d-block" src="{{product.image[1]}}"
               alt="Slide Image">
           </div>
-          <div class="carousel-item"><img class="img-thumbnail w-100 d-block" src="{{product.image[3]}}"
+          <div class="carousel-item img-magnifier-container">
+            <img id="myimage3" class="img-thumbnail w-100 d-block" src="{{product.image[3]}}"
               alt="Slide Image">
           </div>
-          <div class="carousel-item"><img class="img-thumbnail w-100 d-block" src="{{product.image[2]}}"
+          <div class="carousel-item img-magnifier-container">
+            <img id="myimage4" class="img-thumbnail w-100 d-block" src="{{product.image[2]}}"
               alt="Slide Image">
           </div>
-          <div class="carousel-item"><img class="img-thumbnail w-100 d-block" src="{{product.image[4]}}"
+          <div class="carousel-item img-magnifier-container">
+            <img id="myimage5" class="img-thumbnail w-100 d-block" src="{{product.image[4]}}"
               alt="Slide Image">
           </div>
         </div>
@@ -47,11 +63,13 @@
     <div class="col-md-7">
       <h1>{{product.name}}</h1>
       <div class="wt-display-flex-xs wt-align-items-center">
-        <span class="wt-display-inline-block" style="color: brown; text-decoration: underline  dotted darkred  20%;"> Bestseller </span>
+        <span class="wt-display-inline-block" style="color: brown; text-decoration: underline  dotted darkred  20%;">
+          Bestseller </span>
       </div>
 
       <div class="price"><span class="me-4 text-success"><i class="fa fa-EGP text-success">EGP</i>
-          {{product.price}}</span><span class="me-2 cut">{{product.discount}}</span></div>
+          {{product.price}}</span><span class="me-2 cut">{{product.discount}}</span>
+        </div>
       <div class="d-flex flex-row">
         <div class="icons me-2"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i
             class="fa fa-star-half-o"></i><i class="fa fa-star-o"></i></div><span>1200 ratings &amp; 564 reviews</span>
@@ -77,8 +95,8 @@
       </div>
 
       <div class="mt-4 col-md-offset-4 col-md-offset-3">
-        <button class="btn btn-Prodetails btn-dark me-2 w-50 " type="button">
-          <span class="glyphicon glyphicon-shopping-cart"></span>
+        <button class="btn btn-Prodetails btn-dark me-2 w-50 " type="button" (click)="add()">
+          <span class="glyphicon glyphicon-shopping-cart" ></span>
           ADD TO CART</button>
         <button class="btn btn-Prodetails btn-success w-50 mt-2" type="button">
           BUY NOW</button>
@@ -87,20 +105,21 @@
   </div>
 </div>
 
-<h2 class="text-center col text-danger">You may also like </h2>
+<h2 class="text-center col text-danger mt-6">You may also like </h2>
 
 <div class="card-group block-like" class=" row row-cols-1 row-cols-md-3 g-4 mb-4  ">
- 
+
   <!-- class="d-block w-50 h-20 mt-2" -->
   <div *ngFor="let p of pots " class="col carddiv center-block">
 
     <div class="card h-100 w-2 d-flex wrap center-block" style="width: 15rem;">
       <img src="{{p.image[0]}}" class="card-img-top" alt="..." />
       <div class="card-body">
-        <h5 class="card-title" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"> {{p.subName}}</h5>
+        <h5 class="card-title" style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">
+          {{p.subName}}</h5>
         <p class="card-text ">
           {{p.cat}} </p>
-         <p> <small class="text-success">{{p.price}} <i class="fa fa-EGP text-success">EGP</i></small>
+        <p> <small class="text-success">{{p.price}} <i class="fa fa-EGP text-success">EGP</i></small>
         </p>
         <a routerLink='/Home/Products/{{p.id}}' class="btn btn-primary center-block">Details</a>
       </div>
@@ -108,3 +127,4 @@
 
   </div>
 </div>
+
