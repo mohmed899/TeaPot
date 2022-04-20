@@ -25,6 +25,7 @@ import { CrudComponent } from './Components/crud/crud.component';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { DialogComponent } from './Components/dialog/dialog.component';
+import { DealComponent } from './Components/deal/deal.component';
 
 @NgModule({
   declarations: [
@@ -44,6 +45,7 @@ import { DialogComponent } from './Components/dialog/dialog.component';
       CategoryComponent,
       CrudComponent,
       DialogComponent,
+      DealComponent,
 
     
   ],

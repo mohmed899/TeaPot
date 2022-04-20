@@ -10,6 +10,9 @@ body {
 .price span {
     font-size: 18px
 }
+.price{
+    margin-bottom: 1em;
+}
 .cut {
     text-decoration: line-through;
     color: red
@@ -48,4 +51,39 @@ label.radio input:checked+span {
     border-color: #8f37aa;
     background-color: #8f37aa;
     color: #fff
+}
+.wt-align-items-center {
+    align-items: center !important;
+    background: #FDEBD2;
+    width: 8%;
+    border-radius: 8em;
+    height: 2em;
+    text-align: center;
+    padding-left: .5em;
+    margin: 1em;
+    align-items: flex-start;
+}
+@media only screen and (min-width: 0)
+{
+.wt-display-flex-xs {
+    display: flex !important;
+}
+}
+.wt-display-inline-block {
+    display: inline-block !important;
+}
+.btn-Prodetails{
+    border-radius: 5em;
+    margin-top: 2em;
+    margin-bottom: 1em;
+    height: 4em;
+    width: auto;
+}
+.block-like {
+    flex-wrap: wrap;
+    align-items: center;
+    display: inline-flex;
+}
+.carddiv{
+    width: 170px;
 }

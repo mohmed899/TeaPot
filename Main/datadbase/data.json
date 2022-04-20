@@ -4,13 +4,14 @@
       "id": 0,
       "name": "Royal Porcelain - TEA POT LARGE W/LID 1.0L",
       "subName": "Medium Coffee Pot",
-      "Brand": [
-        "Royal Porcelain",
-        "assets/images/royal_brand.png"
-      ],
-      "price": "22.00",
+      "Brand": "Royal Porcelain",
+      "price": "222.00",
+      "discount":"513.05",
       "cat": "Ceramic",
       "image": [
+        "https://media.nisbets.com/asset/core/prodimage/largezoom/cg125_rp-w-classic-white.jpg",
+        "https://media.nisbets.com/asset/core/prodimage/largezoom/cg125_rp-g-classic-white.jpg",
+        "https://media.nisbets.com/asset/core/prodimage/largezoom/cg125_rp-w-classic-white.jpg",
         "https://media.nisbets.com/asset/core/prodimage/largezoom/cg125_rp-w-classic-white.jpg",
         "https://media.nisbets.com/asset/core/prodimage/largezoom/cg125_rp-g-classic-white.jpg"
       ],
@@ -18,56 +19,236 @@
         "Royal Porcelain is one of the leading manufacturers of high-quality ceramic tableware worldwide",
         "High Quality",
         "Safe to use",
-        "Can easily be cleaned"
+        "Weight 440g",
+        "Oven, Microwave and dishwasher safe"
       ]
     },
     {
       "id": 1,
-      "name": "Royal Porcelain - TEA POT LARGE W/LID 1.0L",
-      "subName": "Medium Coffee Pot",
-      "Brand": [
-        "Royal Porcelain",
-        "assets/images/royal_brand.png"
-      ],
-      "price": "22.00",
+      "name": "Round Teapot with Filter,  Ceramic Stoneware Glazed Pottery, Cottagecore Farmhouse, Unique Handmade Tea Gifts, Large 950ml ",
+      "subName": "Unique Handmade Tea Gifts",
+      "Brand": "Cottagecore Farmhouse",
+      "price": "976.00",
+      "discount":"1302.13",
       "cat": "Ceramic",
       "image": [
-        "https://media.nisbets.com/asset/core/prodimage/largezoom/cg125_rp-w-classic-white.jpg",
-        "https://media.nisbets.com/asset/core/prodimage/largezoom/cg125_rp-g-classic-white.jpg"
+        "assets/imges/Round Teapot ceramic.png",
+        "assets/imges/Round Teapot ceramic2.png",
+        "assets/imges/Round Teapot ceramic3.png",
+        "assets/imges/Round Teapot ceramic4.png",
+        "assets/imges/Round Teapot ceramic5.png"
       ],
       "features": [
-        "Royal Porcelain is one of the leading manufacturers of high-quality ceramic tableware worldwide",
-        "High Quality",
-        "Safe to use",
-        "Can easily be cleaned"
+        "Dimensions: H 15cm x L 22cm",
+        "Capacity: 950ml / 32oz",
+        "Microwave, Oven and Dishwasher Safe",
+        "Materials: Ceramic Handmade"
       ]
     },
+    {
+      "id": 2,
+      "name": "Graceful teapot Royal Tettau Bavaria Germany 1950s rare pattern with swan shiny like brand new!",
+      "subName": "Vintage from the 1950s",
+      "Brand": "coolvintage",
+      "price": "437.50",
+      "discount":"750.00",
+      "cat": "porselein",
+      "image": [
+        "assets/imges/Graceful1.png",
+        "assets/imges/Graceful2.png",
+        "assets/imges/Graceful3.png",
+        "assets/imges/Graceful4.png",
+        "assets/imges/Graceful5.png"
+      ],
+      "features": [
+        "Dimensions: diameter Ø lid 8 cm (3' inch), height 20 cm (7.9' inch)",
+        "Capacity: the teapot easily holds 1 litre ( 33.8 fl oz) of liquid",
+        "Materials: porselein, porcelain, porcelaine",
+        "This pattern with swan in lightblue and gold on pristine white dates to the 1950s Wonderful detailed drawing...romantic design... a real gem!"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Vintage piano teapot and jugs, a French white porcelain tea pot",
+      "subName": "Vintage",
+      "Brand": "ASCuriosities",
+      "price": "1250.00",
+      "discount":"1400",
+      "cat": "porcelain",
+      "image": [
+        "assets/imges/Vintage_piano_1.jpg",
+        "assets/imges/Vintage_piano_2.png",
+        "assets/imges/Vintage_piano_3.png",
+        "assets/imges/Vintage_piano_4.png",
+        "assets/imges/Vintage_piano_5.png"
+      ],
+      "features": [
+        "Teapot - 15cm or 5 7/8\" in height / 22cm or 8 5/8\" max width",
+        "Jugs - 9cm or 3 1/2\" in height / 8.5cm or 3 3/8\" max width",
+        "A charming vintage French porcelain teapot and 2 jugs with piano decor.",
+        "An wonderful gift idea for a music lover!"
+      ]
+    },
+    
+    {
+      "id": 4,
+      "name": "Vintage piano teapot and jugs, a French white porcelain tea pot",
+      "subName": "Vintage",
+      "Brand": "ASCuriosities",
+      "price": "1250.00",
+      "discount":"1400",
+      "cat": "porcelain",
+      "image": [
+        "assets/imges/Hummingbird_1.png",
+        "assets/imges/Hummingbird_2.png",
+        "assets/imges/Hummingbird_3.png",
+        "assets/imges/Hummingbird_4.png",
+        "assets/imges/Hummingbird_3.png"
+      ],
+      "features": [
+        "Vintage from the 1980s",
+        "Beautiful Tea Pot",
+        "No Scratches",
+        "No Cracks ,or Chips"
+      ]
+    },
+    
+    {
+      "id": 5,
+      "name": "Embersceramic Ceramic Teapot Gold Deer Chinese Tea Pot",
+      "subName": "Chinese Tea Pot",
+      "Brand": "Embersceramic",
+      "price": "548.64",
+      "discount":"609.60",
+      "cat": "Ceramic",
+      "image": [
+        "https://i.etsystatic.com/28475776/r/il/4c3e96/3359590996/il_794xN.3359590996_rx38.jpg",
+        "https://i.etsystatic.com/28475776/r/il/affd80/3247629945/il_794xN.3247629945_5re5.jpg",
+        "https://i.etsystatic.com/28475776/r/il/384c22/3407277211/il_794xN.3407277211_h77w.jpg",
+        "https://i.etsystatic.com/28475776/r/il/0703d4/3247629559/il_794xN.3247629559_g52m.jpg",
+        "https://i.etsystatic.com/28475776/r/il/ecd5e0/3199924244/il_794xN.3199924244_4s2r.jpg"
+      ],
+      "features": [
+        "Handmade Ideal for your presentation of tea lovers",
+        "Materials: Ceramic",
+        "Style A: x 1 Teapot (5.3x11cm 265ml)",
+        "Style B: x1 Teapot (3.3x8cm 150ml)"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Vintage Very Heavy Solid Brass Miniature Tea Kettle | Decorative Mini Kettle",
+      "subName": "Chinese Tea Pot",
+      "Brand": "AlegriaCollection",
+      "price": "701.96",
+      "discount":"909.60",
+      "cat": "heavy brass",
+      "image": [
+        "https://i.etsystatic.com/6747470/r/il/8e47f4/3022939259/il_794xN.3022939259_b4lb.jpg",
+        "https://i.etsystatic.com/6747470/r/il/33ac33/2975223996/il_794xN.2975223996_m3bu.jpg",
+        "https://i.etsystatic.com/6747470/r/il/fda635/2975224140/il_794xN.2975224140_qt1j.jpg",
+        "https://i.etsystatic.com/6747470/r/il/522ef8/2975224116/il_794xN.2975224116_tlzm.jpg",
+        "https://i.etsystatic.com/6747470/r/il/991f20/3022939041/il_794xN.3022939041_7dkg.jpg"
+      ],
+      "features": [
+        "Great addition to vintage kitchen decor or collection of brass miniatures.",
+        "Overall measurements are 5 1/4 in. from spout to handle x 6 in. tall to top of handle x 2 3/4 in. diameter at the base x 1 5/8 in. interior rim diameter.",
+        "Very good vintage condition with age-appropriate wear, such as some heavy tarnish, dings, scuffs, etc.",
+        "Notice the interesting construction, with a faux bamboo swivel handle and four slightly recessed areas on the sides."
+      ]
+    }
+    ,
     {
       "id": 7,
-      "name": "Royal Porcelain - TEA POT LARGE W/LID 1.0L",
-      "subName": "Lagre TEA Pot",
-      "Brand": [
-        "Royal Porcelain",
-        "assets/images/royal_brand.png"
-      ],
-      "price": "50.00",
-      "cat": "Frangipani",
+      "name": "Blue Ceramic Tea Set Handmade Teapot large capacity kettle Tea pot with Handle ",
+      "subName": "Handmade Teapot",
+      "Brand": "zhidou",
+      "price": "947.27",
+      "discount":"1500.60",
+      "cat": "Ceramic",
       "image": [
-        "https://media.nisbets.com/asset/core/prodimage/largezoom/cg125_rp-g-classic-white.jpg"
+        "https://i.etsystatic.com/26599657/r/il/4914b5/3697357960/il_794xN.3697357960_kyg4.jpg",
+        "https://i.etsystatic.com/26599657/r/il/e65962/3601496243/il_794xN.3601496243_m2on.jpg",
+        "https://i.etsystatic.com/26599657/r/il/8266b3/3697357836/il_794xN.3697357836_l882.jpg",
+        "https://i.etsystatic.com/26599657/r/il/583797/2928676083/il_794xN.2928676083_hgqh.jpg",
+        "https://i.etsystatic.com/26599657/r/il/016c72/3553848800/il_794xN.3553848800_dncm.jpg"
       ],
       "features": [
-        "Royal Porcelain is one of the leading manufacturers of high-quality ceramic tableware worldwide",
-        "High Quality",
-        "Safe to use",
-        "Can easily be cleaned"
+        "Handmade Materials: Ceramic",
+        "Tea Capacity:780ml Length:21cm, Width: 15cm, Height: 12cm",
+        "High temperature resistance",
+        "Large capacity kettle Tea pot with Handle."
+      ]
+    }
+    ,
+    {
+      "id": 8,
+      "name": "TANGPIN TEA- Lucky Cat Ceramic Tea Cup with Infuser Cute Cat Tea Mug with Lid ",
+      "subName": "TEA-Lucky",
+      "Brand": "Tangpin",
+      "price": "661.87",
+      "discount":"1000.87",
+      "cat": "Ceramic",
+      "image": [
+        "https://i.etsystatic.com/21044348/r/il/7b8556/3129171468/il_794xN.3129171468_9vxq.jpg",
+        "https://i.etsystatic.com/21044348/r/il/a22473/3176885217/il_794xN.3176885217_n6mp.jpg",
+        "https://i.etsystatic.com/21044348/r/il/932e64/3176885299/il_794xN.3176885299_6dms.jpg",
+        "https://i.etsystatic.com/21044348/r/il/f14cf3/3176885251/il_794xN.3176885251_t6ll.jpg",
+        "https://i.etsystatic.com/21044348/r/il/462c79/3129169124/il_794xN.3129169124_ajap.jpg"
+      ],
+      "features": [
+        "Handmade ",
+        "Capacity: 300 milliliters ",
+        "x 1 Tea mug (12.6x11.6cm 300ml) ",
+        "Materials: Ceramic "
+      ]
+    }
+    ,
+    {
+      "id": 9,
+      "name": "European style marbled tea set custom handmade porcelain ",
+      "subName": "custom-handmade",
+      "Brand": "HouseHavendeals",
+      "price": "1423.13",
+      "discount":"",
+      "cat": "porcelain",
+      "image": [
+        "https://i.etsystatic.com/31626215/r/il/5fa666/3365202813/il_794xN.3365202813_qi3r.jpg",
+        "https://i.etsystatic.com/31626215/r/il/b6c03e/3365202811/il_794xN.3365202811_qu9a.jpg",
+        "https://i.etsystatic.com/31626215/r/il/d2825d/3365202815/il_794xN.3365202815_azv1.jpg",
+        "https://i.etsystatic.com/31626215/r/il/6bd182/3317509210/il_794xN.3317509210_chmd.jpg",
+        "https://i.etsystatic.com/31626215/r/il/05d217/3317509214/il_794xN.3317509214_5wo9.jpg"
+      ],
+      "features": [
+        "Materials: porcelain, Marble look",
+        "Very durable and requires minimal maintenance ",
+        "Fashionable and functionable.",
+        "Handmade Non toxic ceramic material"
       ]
     },
     {
-      "subName": "tesyo",
-      "cat": "cermmm",
-      "price": 78,
-      "id": 8
+      "id": 10,
+      "name": "Clarity Teapot- Premium glass teapotwith built-in tealeaf filter ",
+      "subName": "handmade",
+      "Brand": "VerTeTrueTeas",
+      "price": "1000",
+      "discount":"1500",
+      "cat": "glass",
+      "image": [
+        "https://i.etsystatic.com/24504345/r/il/d4b32e/2563303003/il_794xN.2563303003_51ta.jpg",
+        "https://i.etsystatic.com/24504345/r/il/0dde08/2563303529/il_794xN.2563303529_9cjn.jpg",
+        "https://i.etsystatic.com/24504345/r/il/4553a2/2515635882/il_794xN.2515635882_6d8f.jpg",
+        "https://i.etsystatic.com/24504345/r/il/9a4b5e/2515636382/il_794xN.2515636382_b88r.jpg",
+        "https://i.etsystatic.com/24504345/r/il/3a4c40/2515638766/il_794xN.2515638766_sjmn.jpg"
+      ],
+      "features": [
+        "This glass teapot is an interpretation of the classic Japanese teapot in glass.",
+        "Made of tempered high temperature glass ",
+        " Selected especially for our the Rose and Nightingale rose infusion this teapot display the beauty of the flower’s bloom during brewing",
+        "Handmade "
+      ]
     }
+
   ],
   "cat": [
 
@@ -93,6 +274,7 @@
       "name":  "Glass",
       "img": "https://m.media-amazon.com/images/I/61cCoctyuNL._SL1050_.jpg"
     }
+  
   
   ]
 }

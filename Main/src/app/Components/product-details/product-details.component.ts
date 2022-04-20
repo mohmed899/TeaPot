@@ -15,13 +15,20 @@ export class ProductDetailsComponent implements OnInit {
   constructor(private PotService : ProductService ,private CurntLink:ActivatedRoute) { }
   //property for pots data
   product:any
+  pots:any
     ngOnInit(): void {
       this.PotService.getById(this.CurntLink.snapshot.params["id"]).subscribe(
         (data)=>{this.product=data},
         (errorr)=>{console.log(errorr)}
       )
+      this.PotService.getAll().subscribe( 
+        (data)=>{
+          this.pots=data
+    
+        },
+        (e)=>{ console.log(e)}
+      )
     }
-
 
 
 }

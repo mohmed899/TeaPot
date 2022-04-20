@@ -57,3 +57,8 @@ h1{
   font-size: .7em;
 font-weight: 350;
 }
+.sideWord{
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 0%;
+}
