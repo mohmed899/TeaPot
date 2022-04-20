@@ -1,0 +1,13 @@
+.form-group{
+    margin-left: 13em;
+    width:100%
+}
+label{
+    color: rgb(180, 136, 26);
+    font-size: 1.4em;
+    margin-bottom: .6em;
+    margin-top: 1em;
+}
+.btn{
+    margin-left: 20em;
+}

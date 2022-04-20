@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
 body {
-    background: #fff;
+    background-color: #dddddd37;
     font-family: 'Roboto Condensed', sans-serif
 }
 .carousel-item {

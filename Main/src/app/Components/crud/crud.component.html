@@ -1,7 +1,7 @@
-<h1 class="text-center ">All Products </h1>
-<app-product-item *ngFor="let p of products" [product]="p" [IsUpdatable]="true"></app-product-item>
+<div class="body">
+<h1 class="text-center header">All Products </h1>
 <div>
-    <button type="button" class="btn btn-primary btn-lg btn-block" (click)="openModal()" >Block level button</button>
+    <button type="button" class="btn btn-lg" (click)="openModal()">Add new product</button>
 </div>
-
-
+<app-product-item style="margin-left: 3em;" *ngFor="let p of products" [product]="p" [IsUpdatable]="true"></app-product-item>
+</div>

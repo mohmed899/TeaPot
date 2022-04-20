@@ -1,14 +1,12 @@
-<div class="bg-light " style="width: 500px;">
-
-
-  <form class="w-50">
+<div class="p-0 shadow p-3 mb-5 bg-white rounded" style="width: 50em;">
+  <form class="w-50" style="height: 50em;">
     <div class="form-group">
       <label>Prouduct Name</label>
       <input type="text" class="form-control" #name placeholder="Enter Name">
     </div>
 
     <div class="form-group">
-      <label>sub Name</label>
+      <label>Sub Name</label>
       <input type="text" class="form-control" #subName placeholder="Enter subName">
     </div>
 
@@ -42,7 +40,7 @@
       <textarea type="text" class="form-control" #features placeholder="Enter features"></textarea>
     </div>
 
-    <button type="submit" class="btn btn-primary"
+    <button type="submit" class="btn btn-success mt-1"
       (click)="AddProduct(name.value,subName.value,Brand.value, price.value, discount.value,cat.value,Image.value, features.value)">Submit</button>
   </form>
 </div>

@@ -1,13 +1,13 @@
 
-    <h1 class="text-center fontmain mt-5">Our Product</h1> 
-    <p class="text-center fontSecandry"> Various type of unique teaPoty Products </p>
-    <p class="text-center fontSecandry mb-3">minnimalist and best prices</p>
+<div class="body">
+<div class="header">
+    <h1 class="text-center fontmain">Our Products</h1> 
+    <p class="text-center fontSecandry col-4"> Various types of unique teapoty products, <br>minimalist and best prices</p>
+</div>
 
-
-
-<div class="col-11 m-auto">
-    <mat-tab-group mat-align-tabs="center" #tab (selectedTabChange)="fun($event)"  >
-        <mat-tab label="All Products"  bodyClass="mainp" >
+<div class="col-12">
+    <mat-tab-group style="margin-left: 7em;" mat-align-tabs="center" #tab (selectedTabChange)="fun($event)"  >
+        <mat-tab label="All Products">
             <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
         </mat-tab>
         <mat-tab label="Ceramic">
@@ -20,4 +20,5 @@
             <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>
         </mat-tab>
     </mat-tab-group>
+</div>
 </div>
