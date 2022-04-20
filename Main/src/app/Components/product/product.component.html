@@ -5,20 +5,19 @@
 
 
 
-<div class="mainp">
-    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium est culpa magni ea error? Fuga quo amet pariatur quasi vero officiis fugit ullam necessitatibus repudiandae eveniet, repellendus sint nulla cum.
+<div class="col-11 m-auto">
+    <mat-tab-group mat-align-tabs="center" #tab (selectedTabChange)="fun($event)"  >
+        <mat-tab label="All Products"  bodyClass="mainp" >
+            <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
+        </mat-tab>
+        <mat-tab label="Ceramic">
+            <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
+        </mat-tab>
+        <mat-tab label="Porcelain">
+            <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
+        </mat-tab>
+        <mat-tab label="Frangipani">
+            <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>
+        </mat-tab>
+    </mat-tab-group>
 </div>
-<mat-tab-group mat-align-tabs="center" #tab (selectedTabChange)="fun($event)"  >
-    <mat-tab label="All Products"  bodyClass="mainp" >
-        <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
-    </mat-tab>
-    <mat-tab label="Ceramic">
-        <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
-    </mat-tab>
-    <mat-tab label="Porcelain">
-        <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
-    </mat-tab>
-    <mat-tab label="Frangipani">
-        <app-product-item *ngFor="let pro of products" [product]="pro"></app-product-item>
-    </mat-tab>
-</mat-tab-group>

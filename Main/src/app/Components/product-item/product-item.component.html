@@ -1,12 +1,12 @@
 
-  <div  class="card CardDisplayAsid" style="width: 16rem;">
-    <img class="card-img-top cardImg"  src="https://upload.wikimedia.org/wikipedia/commons/4/44/Black_tea_pot_cropped.jpg" alt="Card image cap">
+  <div  class="card CardDisplayAsid" style="width: 15rem; ;">
+    <img class="card-img-top cardImg"  src="{{product.image[0]}}" alt="Card image cap">
     <div class="card-body">
         <h6 class="fs-6"> {{product.cat}} </h6>
-      <h4 class="fs-3"> {{product.subName}} </h4>
+      <h4 class="fs-4"> {{product.subName}} </h4>
       <div class="d-flex row">
         <h5 class="fs-5 text-success col-8">Price : {{product.price}}</h5>
-        <a class="col-3" routerLink='/Home/Products/{{product.id}}' > details </a>
+        <a class="col-4" routerLink='/Home/Products/{{product.id}}' > details </a>
         <div *ngIf="IsUpdatable">
           <button type="button" class="btn btn-danger">update</button>
           <button type="button" class="btn btn-danger" (click)="delete()">Delete</button>

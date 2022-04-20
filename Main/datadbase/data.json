@@ -6,7 +6,7 @@
       "subName": "Medium Coffee Pot",
       "Brand": "Royal Porcelain",
       "price": "222.00",
-      "discount":"513.05",
+      "discount": "513.05",
       "cat": "Ceramic",
       "image": [
         "https://media.nisbets.com/asset/core/prodimage/largezoom/cg125_rp-w-classic-white.jpg",
@@ -29,7 +29,7 @@
       "subName": "Unique Handmade Tea Gifts",
       "Brand": "Cottagecore Farmhouse",
       "price": "976.00",
-      "discount":"1302.13",
+      "discount": "1302.13",
       "cat": "Ceramic",
       "image": [
         "assets/imges/Round Teapot ceramic.png",
@@ -51,7 +51,7 @@
       "subName": "Vintage from the 1950s",
       "Brand": "coolvintage",
       "price": "437.50",
-      "discount":"750.00",
+      "discount": "750.00",
       "cat": "porselein",
       "image": [
         "assets/imges/Graceful1.png",
@@ -73,7 +73,7 @@
       "subName": "Vintage",
       "Brand": "ASCuriosities",
       "price": "1250.00",
-      "discount":"1400",
+      "discount": "1400",
       "cat": "porcelain",
       "image": [
         "assets/imges/Vintage_piano_1.jpg",
@@ -89,14 +89,13 @@
         "An wonderful gift idea for a music lover!"
       ]
     },
-    
     {
       "id": 4,
       "name": "Vintage piano teapot and jugs, a French white porcelain tea pot",
       "subName": "Vintage",
       "Brand": "ASCuriosities",
       "price": "1250.00",
-      "discount":"1400",
+      "discount": "1400",
       "cat": "porcelain",
       "image": [
         "assets/imges/Hummingbird_1.png",
@@ -112,14 +111,13 @@
         "No Cracks ,or Chips"
       ]
     },
-    
     {
       "id": 5,
       "name": "Embersceramic Ceramic Teapot Gold Deer Chinese Tea Pot",
       "subName": "Chinese Tea Pot",
       "Brand": "Embersceramic",
       "price": "548.64",
-      "discount":"609.60",
+      "discount": "609.60",
       "cat": "Ceramic",
       "image": [
         "https://i.etsystatic.com/28475776/r/il/4c3e96/3359590996/il_794xN.3359590996_rx38.jpg",
@@ -141,7 +139,7 @@
       "subName": "Chinese Tea Pot",
       "Brand": "AlegriaCollection",
       "price": "701.96",
-      "discount":"909.60",
+      "discount": "909.60",
       "cat": "heavy brass",
       "image": [
         "https://i.etsystatic.com/6747470/r/il/8e47f4/3022939259/il_794xN.3022939259_b4lb.jpg",
@@ -156,15 +154,14 @@
         "Very good vintage condition with age-appropriate wear, such as some heavy tarnish, dings, scuffs, etc.",
         "Notice the interesting construction, with a faux bamboo swivel handle and four slightly recessed areas on the sides."
       ]
-    }
-    ,
+    },
     {
       "id": 7,
       "name": "Blue Ceramic Tea Set Handmade Teapot large capacity kettle Tea pot with Handle ",
       "subName": "Handmade Teapot",
       "Brand": "zhidou",
       "price": "947.27",
-      "discount":"1500.60",
+      "discount": "1500.60",
       "cat": "Ceramic",
       "image": [
         "https://i.etsystatic.com/26599657/r/il/4914b5/3697357960/il_794xN.3697357960_kyg4.jpg",
@@ -179,15 +176,14 @@
         "High temperature resistance",
         "Large capacity kettle Tea pot with Handle."
       ]
-    }
-    ,
+    },
     {
       "id": 8,
       "name": "TANGPIN TEA- Lucky Cat Ceramic Tea Cup with Infuser Cute Cat Tea Mug with Lid ",
       "subName": "TEA-Lucky",
       "Brand": "Tangpin",
       "price": "661.87",
-      "discount":"1000.87",
+      "discount": "1000.87",
       "cat": "Ceramic",
       "image": [
         "https://i.etsystatic.com/21044348/r/il/7b8556/3129171468/il_794xN.3129171468_9vxq.jpg",
@@ -202,15 +198,14 @@
         "x 1 Tea mug (12.6x11.6cm 300ml) ",
         "Materials: Ceramic "
       ]
-    }
-    ,
+    },
     {
       "id": 9,
       "name": "European style marbled tea set custom handmade porcelain ",
       "subName": "custom-handmade",
       "Brand": "HouseHavendeals",
       "price": "1423.13",
-      "discount":"",
+      "discount": "",
       "cat": "porcelain",
       "image": [
         "https://i.etsystatic.com/31626215/r/il/5fa666/3365202813/il_794xN.3365202813_qi3r.jpg",
@@ -232,7 +227,7 @@
       "subName": "handmade",
       "Brand": "VerTeTrueTeas",
       "price": "1000",
-      "discount":"1500",
+      "discount": "1500",
       "cat": "glass",
       "image": [
         "https://i.etsystatic.com/24504345/r/il/d4b32e/2563303003/il_794xN.2563303003_51ta.jpg",
@@ -248,33 +243,27 @@
         "Handmade "
       ]
     }
-
   ],
   "cat": [
-
-
-
     {
-      "name":  "Ceramic",
+      "name": "Ceramic",
       "img": "https://cdn.intelligencebank.com/au/share/NOrD/lnPGR/4p0WV/preset=pB6BA/H999AK007_hugo-medium-teapot-black_pdp_p1_hi-res"
     },
     {
-      "name":  "Porcelain",
+      "name": "Porcelain",
       "img": "https://images.thdstatic.com/productImages/67f79726-836d-47c5-84f3-d22a724ec865/svn/red-sweese-tea-kettles-teapot-s-rd-64_600.jpg"
     },
     {
-      "name":  "Frangipani",
+      "name": "Frangipani",
       "img": "https://jenggala.com/wp-content/uploads/2018/08/A01CO2991-4337B-300x300.jpg"
     },
     {
-      "name":  "Stainless steel",
+      "name": "Stainless steel",
       "img": "https://cdn11.bigcommerce.com/s-tignxf6kle/images/stencil/1280x1280/products/13287/24933/api3klvol__37647.1607961517.jpg?c=2?imbypass=on"
     },
     {
-      "name":  "Glass",
+      "name": "Glass",
       "img": "https://m.media-amazon.com/images/I/61cCoctyuNL._SL1050_.jpg"
     }
-  
-  
   ]
 }
