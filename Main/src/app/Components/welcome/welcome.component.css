@@ -1,3 +1,28 @@
+.welcome{
+	background-color: #060606e4;
+height: 40em;
+}
+h2{
+	color:white;
+	font-size:5em;
+	line-height:1em;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-bottom: 1em;
+}
+h6{
+	color: #797679;
+	font-size: 1.1em;
+}
+#mail{
+	width: 25em;
+}
+#go{
+	position: absolute;
+	outline: none;
+	border: none;
+	margin-left: 19em;
+}
+
 .right{
     display:flex;
      
@@ -18,26 +43,18 @@
 
 .content{
 	position: absolute;
-	top: 50%;
+	top: 20%;
 	left:7%;
-	transform: translateY(-70%);
+	/* transform: translateY(-70%); */
 }
 .container{
     height: auto;
-	
-	
-}
-
-
-.bgWelcom{
-    opacity: 75%;
 }
 
 .newslatter form{
-	width: 320px;
+	width: 1em;
 	max-width: 100%;
 	position: relative;
-    margin-left: 38px;
   
 }
 .newslatter form input:first-child{
@@ -52,53 +69,49 @@
 
 }
 .newslatter form input:last-child{
-	position: absolute;
-	display: inline-block;
-	outline: none;
-	border: none;
+	
 	padding: 10px 30px;
 	border-radius: 30px;
 	background-color:#696869;
 	color: white;
 	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
-	top: 6px;
-	right: 8px; 
+	top: 6px; 
 
 }
-.para{
-    margin-left: 55px;
-    margin-top: 40px;
+.row{
+    margin-top: 3em;
     display: flex;
 }
 
-.num100{
-    display: inline;
-    color: antiquewhite;
-}
-.span100{
- margin-left: 15px;
- margin-top: 7px;
-
- color: azure;
+#img1{
+	height: 25em;
+	width: 16em;
+border-radius: 1000px;
+margin-bottom: 9em;
 }
 
-.imgAll{
-	width: 30%;
-	height: 50%;
-	margin-left: 10px;
-    display: inline-block;
-	margin-top: 50px;
-    border-radius: 10px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 40px;
-
-}
-
-#img3{
+#img2{
+	width: 11em;
+	height: 12em;
 	border-top-left-radius:50% ;
 	border-top-right-radius:50% ;
     border-bottom-right-radius:0;
-    border-bottom-left-radius:0;
+    border-bottom-left-radius:0; 
+	margin-left: 2em;
+	margin-bottom: 1.5em;
+}
 
-	 
+#img3{
+	width: 11em;
+	height: 11em;
+	border-radius: 50%;
+	margin-left: 2em;
+}
+
+.images{
+
+	margin-left: 13em;
+    display: inline-block;
+	margin-top: 50px;
+    border-radius: 10px;
 }
