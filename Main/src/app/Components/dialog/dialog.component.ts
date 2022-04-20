@@ -18,15 +18,14 @@ export class DialogComponent implements OnInit {
   ngOnInit(): void {
     console.log("modlal");
   }
-  AddProduct(cat:String,subName:String, price:String   ){
+  AddProduct(cat:String,subName:String,name:String,Brand:string,Image:string, price:String,features:string,discount:String  ){
     console.log("addd");
             
-     var p = {subName,cat,price:Number(price)}
+     var p = {name,subName,Brand,price:Number(price),discount:Number(discount),cat,Image,features}
      this.handl.add(p).subscribe(
        ()=>{ confirm("added")},
        (e)=>{alert(e)}
      )
-
   }
 
 
