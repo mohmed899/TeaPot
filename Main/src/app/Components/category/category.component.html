@@ -1,28 +1,30 @@
-<div class="container  mt-3">
+<div class="container1">
 
 
 
   <div class="row">
-
-    <div class="col-6 ">
-      <H5 class="title"> Our
+<div class="header d-flex">
+    <div class="col-3 title">
+      <H5> Our
         <span style="text-decoration: line-through">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
       </H5>
-      <H5 class="title">Categories</H5>
+      <H5>Categories</H5>
     </div>
-    <div class="col-5 ">
-      <p class="fontSecandry"> Various type of unique teaPoty Products </p>
-      <p class=" fontSecandry mb-3">searsh for what cagtegory matrial you wants</p>
+    <div class="col-5 paragraph">
+      <p> Various types of teapot categories for you. You can easily </p>
+      <p>search for what cagtegory of matrial you want</p>
     </div>
+  </div>
 
-
-    <div class="carousel bg-light w-100" data-flickity='{ "groupCells": true }'>
+    <div class="carousel col-12" data-flickity='{ "groupCells": true }'>
       <app-item-category [category]="cats[0]"></app-item-category>
       <app-item-category [category]="cats[1]"></app-item-category>
       <app-item-category [category]="cats[2]"></app-item-category>
       <app-item-category [category]="cats[3]"></app-item-category>
       <app-item-category [category]="cats[4]"></app-item-category>
-  
+      <app-item-category [category]="cats[5]"></app-item-category>
+      <app-item-category [category]="cats[6]"></app-item-category>
+
     </div>
 
   </div>
