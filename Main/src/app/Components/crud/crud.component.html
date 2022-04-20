@@ -4,4 +4,8 @@
     <button type="button" class="btn btn-lg" (click)="openModal()">Add new product</button>
 </div>
 <app-product-item style="margin-left: 3em;" *ngFor="let p of products" [product]="p" [IsUpdatable]="true"></app-product-item>
+<h1 class="text-center ">All Products </h1>
+<app-product-item *ngFor="let p of products" [product]="p" [IsUpdatable]="true"></app-product-item>
+<div class="row">
+    <button type="button" class="btn btn-outline-secondary m-auto col-4" (click)="openModal()" >ADD product </button>
 </div>

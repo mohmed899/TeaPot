@@ -134,26 +134,19 @@
       ]
     },
     {
-      "id": 6,
       "name": "Vintage Very Heavy Solid Brass Miniature Tea Kettle | Decorative Mini Kettle",
       "subName": "Chinese Teapot",
       "Brand": "AlegriaCollection",
-      "price": "701.96",
-      "discount": "909.60",
+      "price": 655,
+      "discount": 909.6,
       "cat": "heavy brass",
       "image": [
-        "https://i.etsystatic.com/6747470/r/il/8e47f4/3022939259/il_794xN.3022939259_b4lb.jpg",
-        "https://i.etsystatic.com/6747470/r/il/33ac33/2975223996/il_794xN.2975223996_m3bu.jpg",
-        "https://i.etsystatic.com/6747470/r/il/fda635/2975224140/il_794xN.2975224140_qt1j.jpg",
-        "https://i.etsystatic.com/6747470/r/il/522ef8/2975224116/il_794xN.2975224116_tlzm.jpg",
-        "https://i.etsystatic.com/6747470/r/il/991f20/3022939041/il_794xN.3022939041_7dkg.jpg"
+        "https://i.etsystatic.com/6747470/r/il/8e47f4/3022939259/il_794xN.3022939259_b4lb.jpg"
       ],
       "features": [
-        "Great addition to vintage kitchen decor or collection of brass miniatures.",
-        "Overall measurements are 5 1/4 in. from spout to handle x 6 in. tall to top of handle x 2 3/4 in. diameter at the base x 1 5/8 in. interior rim diameter.",
-        "Very good vintage condition with age-appropriate wear, such as some heavy tarnish, dings, scuffs, etc.",
-        "Notice the interesting construction, with a faux bamboo swivel handle and four slightly recessed areas on the sides."
-      ]
+        "Great addition to vintage kitchen decor or collection of brass miniatures."
+      ],
+      "id": 6
     },
     {
       "id": 7,
@@ -222,26 +215,23 @@
       ]
     },
     {
-      "id": 10,
-      "name": "Clarity Teapot- Premium glass teapotwith built-in tealeaf filter ",
-      "subName": "handmade",
-      "Brand": "VerTeTrueTeas",
-      "price": "1000",
-      "discount": "1500",
-      "cat": "glass",
+      "name": "name",
+      "subName": "supnae",
+      "Brand": "brand",
+      "price": 150,
+      "discount": 120,
+      "cat": "pro Name",
       "image": [
-        "https://i.etsystatic.com/24504345/r/il/d4b32e/2563303003/il_794xN.2563303003_51ta.jpg",
-        "https://i.etsystatic.com/24504345/r/il/0dde08/2563303529/il_794xN.2563303529_9cjn.jpg",
-        "https://i.etsystatic.com/24504345/r/il/4553a2/2515635882/il_794xN.2515635882_6d8f.jpg",
-        "https://i.etsystatic.com/24504345/r/il/9a4b5e/2515636382/il_794xN.2515636382_b88r.jpg",
-        "https://i.etsystatic.com/24504345/r/il/3a4c40/2515638766/il_794xN.2515638766_sjmn.jpg"
+        "https://i.etsystatic.com/31626215/r/il/5fa666/3365202813/il_794xN.3365202813_qi3r.jpg",
+        "https://i.etsystatic.com/31626215/r/il/b6c03e/3365202811/il_794xN.3365202811_qu9a.jpg",
+        "https://i.etsystatic.com/31626215/r/il/d2825d/3365202815/il_794xN.3365202815_azv1.jpg",
+        "https://i.etsystatic.com/31626215/r/il/6bd182/3317509210/il_794xN.3317509210_chmd.jpg",
+        "https://i.etsystatic.com/31626215/r/il/05d217/3317509214/il_794xN.3317509214_5wo9.jpg"
       ],
       "features": [
-        "This glass teapot is an interpretation of the classic Japanese teapot in glass.",
-        "Made of tempered high temperature glass ",
-        " Selected especially for our the Rose and Nightingale rose infusion this teapot display the beauty of the flower’s bloom during brewing",
-        "Handmade "
-      ]
+        "features"
+      ],
+      "id": 10
     }
   ],
   "cat": [
