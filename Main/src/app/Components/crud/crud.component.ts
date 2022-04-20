@@ -36,6 +36,9 @@ export class CrudComponent implements OnInit {
  openModal (){
   let  dref : MatDialogRef<DialogComponent>;
  dref =this.dialog.open(DialogComponent,{
+  width: '550px',
+  height:'40em',
+ 
     data:{
       status:"ADD"
     }

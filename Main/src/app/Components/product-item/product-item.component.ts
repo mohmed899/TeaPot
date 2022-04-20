@@ -29,6 +29,7 @@ export class ProductItemComponent implements OnInit {
   update(){
     const dialogRef = this.dialog.open(DialogComponent,  {
       width: '550px',
+      height:'40em',
       data: {
         id:this.product.id,
         name: this.product.name,

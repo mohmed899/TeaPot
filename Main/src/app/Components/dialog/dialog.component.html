@@ -1,7 +1,6 @@
-<div class="bg-light d-flex  " style="width: 500px;">
+<div class="w-100 h-auto shadow p-3  bg-dark rounded" >
 
-
-  <form class="w-50 m-auto">
+  <form class="w-75 m-auto">
     <div class="form-group">
       <label>Prouduct Name</label>
       <input type="text" class="form-control" #name placeholder="Enter Name" [value]="productData.name">
@@ -41,8 +40,9 @@
       <label>features</label>
       <textarea type="text" class="form-control" #features placeholder="Enter features" [value]="productData.features[0]"></textarea>
     </div>
-
-    <button type="submit" class="btn btn-primary"(click)="SaveProduct( cat.value,subName.value,name.value,Brand.value,Image.value,  price.value,features.value, discount.value)">Submit</button>
-    <button type="button" class="btn btn-danger" (click)="CloseModal()">Cancel </button>
-  </form>
+    <div class="form-group ">
+      <button type="submit" class="btn btn-success m-2"(click)="SaveProduct( cat.value,subName.value,name.value,Brand.value,Image.value,  price.value,features.value, discount.value)">Submit</button>
+      <button type="button" class="btn btn-b m-2 btnCancle" (click)="CloseModal()">Cancel </button>  
+   </div>
+ </form>
 </div>

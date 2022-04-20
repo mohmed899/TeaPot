@@ -16,6 +16,9 @@
     font-size: 1em;
     width: auto;
 }
-.btn-dark{
+.btn-dark,.btn-danger{
     margin-left:.6em;
 }
+
+
+

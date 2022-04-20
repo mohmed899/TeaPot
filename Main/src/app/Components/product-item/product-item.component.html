@@ -9,8 +9,11 @@
         <div class="d-flex">
        <h5> <a class="btn btn-success" routerLink='/Home/Products/{{product.id}}' > Details </a></h5>
         <div *ngIf="IsUpdatable">
-          <button type="button" class="btn btn-danger"(click)="update()">update</button>
-          <button type="button" class="btn btn-danger" (click)="delete()">Delete</button>
+          <h5>
+            <a type="button" class="btn btn-dark"(click)="update()">update</a>
+            <a type="button" class="btn btn-danger" (click)="delete()">Delete</a>
+          </h5>
+
         </div>
       </div>
       </div>

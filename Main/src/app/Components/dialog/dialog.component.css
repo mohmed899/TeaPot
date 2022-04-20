@@ -1,4 +1,4 @@
-.form-group{
+.form-group2{
     margin-left: 13em;
     width:100%
 }
@@ -8,6 +8,11 @@ label{
     margin-bottom: .6em;
     margin-top: 1em;
 }
-.btn{
-    margin-left: 20em;
+.btnCancle{
+    color: white;
+    background-color:brown
+}
+
+.bg{
+    background-color: black;
 }
