@@ -28,4 +28,8 @@ export class ProductService {
   add( obj:any ){
     return this.httpC.post("http://localhost:3000/pro",obj)
   }
+
+  update( obj:any , Id:any ){
+    return this.httpC.put(`http://localhost:3000/pro/${Id} `,obj)
+  }
 }

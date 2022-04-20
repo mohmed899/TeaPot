@@ -8,7 +8,7 @@
         <h5 class="fs-5 text-success col-8">Price : {{product.price}}</h5>
         <a class="col-4" routerLink='/Home/Products/{{product.id}}' > details </a>
         <div *ngIf="IsUpdatable">
-          <button type="button" class="btn btn-danger">update</button>
+          <button type="button" class="btn btn-danger"(click)="update()">update</button>
           <button type="button" class="btn btn-danger" (click)="delete()">Delete</button>
         </div>
       </div>
