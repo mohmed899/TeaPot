@@ -5,7 +5,7 @@
     <p class="text-center fontSecandry col-4"> Various types of unique teapoty products, <br>minimalist and best prices</p>
 </div>
 
-<div class="col-12">
+<div class="col-12 animated slideOutUp infinite" class="wow slideOutUp infinite" data-wow-delay="0.6s">
     <mat-tab-group style="margin-left: 7em;" mat-align-tabs="center" #tab (selectedTabChange)="fun($event)"  >
         <mat-tab label="All Products">
             <app-product-item *ngFor="let pro of products" [product]="pro" [IsUpdatable]="false"></app-product-item>
@@ -26,3 +26,7 @@
     </mat-tab-group>
 </div>
 </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
