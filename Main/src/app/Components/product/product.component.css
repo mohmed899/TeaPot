@@ -1,32 +1,34 @@
-.body{
+.body {
     background-color: #dddddd37;
 }
 
-.header{
+.header {
     background-color: #dddddd37;
 }
-.col-12{
+
+.col-12 {
     background-color: #dddddd37;
 }
+
 .fontmain {
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: 500;
     font-size: 2.4em;
     line-height: 2;
 }
+
 .fontSecandry {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-margin-left:33.5%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-left: 33.5%;
     font-size: 1.1em;
     color: #706f82;
     font-weight: 100;
 }
-.mat-tab-body{
+
+.mat-tab-body {
     background-color: rgb(94, 255, 0);
 }
+
 .mat-tab-body.mat-tab-body-active {
     background-color: darkgoldenrod;
 }
-
-
-
