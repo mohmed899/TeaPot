@@ -93,12 +93,12 @@ margin-bottom: 9em;
 	width: 13em;
 	height: 13em;
 	border-radius: 50%;
-	margin-left: 2em;
+	margin-left: 0em;
 }
 
 .images{
 
-	margin-left:32em;
+	margin-left:50em;
 	right: 0%;
     display: inline-block;
 	margin-top: 50px;

@@ -1,33 +1,73 @@
-
-.newslatter form, .newform{
-	width: 320px;
+.newslatter form,
+.newform {
+	width: 420px;
 	max-width: 100%;
 	position: relative;
-    margin-left: 38px;
-  
+	margin-left: 28px;
+	margin-top: 1px;
+
 }
-.newslatter form input:first-child, .newforminput{
+
+.newslatter form input:first-child,
+.newforminput {
 	display: inline-block;
 	width: 100%;
 	padding: 14px 130px 14px 15px;
-    background-color: #0c0909;
-    color: #696869;
-	border: 2px solid  #696869;
+	background-color: #0c0909;
+	color: #696869;
+	border: 2px solid #696869;
 	outline: none;
-	border-radius: 30px;
+	border-radius: 20px;
 
 }
-.newslatter form input:last-child, .newforminputtow{
+
+.newslatter form input:last-child,
+.newforminputtow {
 	position: absolute;
 	display: inline-block;
 	outline: none;
 	border: none;
-	padding: 10px 30px;
+	padding: 10px 30px 10px;
 	border-radius: 30px;
-	background-color:#696869;
-	color: white;
-	box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+	background-color: whitesmoke;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px whitesmoke;
 	top: 6px;
-	right: 8px; 
+	right: 1.5rem;
+	color: yellowgreen;
 
 }
+
+#img3 {
+	
+	left: 0%;
+	border-radius: 20%;
+	/* margin-left: 2em; */
+	padding: 0%;
+	right: 0%;
+	width: 200px;
+    /* height: 200px; */
+    height: auto;
+    margin-left: 8em;
+
+}
+
+.container1 {
+	background-color: #dddddd37;
+	display: inline-flex;
+	flex-wrap: nowrap;
+	width: 100%;
+	margin-bottom: 3em;
+	text-align: center;
+	align-items: center;
+    height: 20em;
+
+}
+h5{
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-left:2em;
+	margin-bottom: 2em;
+    line-height: .8;
+	color: yellowgreen;
+  }

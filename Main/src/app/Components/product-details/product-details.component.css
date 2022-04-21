@@ -68,7 +68,7 @@ label.radio input:checked+span {
 .wt-align-items-center {
     align-items: center !important;
     background: #FDEBD2;
-    width: 8%;
+    width: 10%;
     border-radius: 8em;
     height: 2em;
     text-align: center;
