@@ -213,25 +213,6 @@
         "Fashionable and functionable.",
         "Handmade Non toxic ceramic material"
       ]
-    },
-    {
-      "name": "name",
-      "subName": "supnae",
-      "Brand": "brand",
-      "price": 150,
-      "discount": 120,
-      "cat": "pro Name",
-      "image": [
-        "https://i.etsystatic.com/31626215/r/il/5fa666/3365202813/il_794xN.3365202813_qi3r.jpg",
-        "https://i.etsystatic.com/31626215/r/il/b6c03e/3365202811/il_794xN.3365202811_qu9a.jpg",
-        "https://i.etsystatic.com/31626215/r/il/d2825d/3365202815/il_794xN.3365202815_azv1.jpg",
-        "https://i.etsystatic.com/31626215/r/il/6bd182/3317509210/il_794xN.3317509210_chmd.jpg",
-        "https://i.etsystatic.com/31626215/r/il/05d217/3317509214/il_794xN.3317509214_5wo9.jpg"
-      ],
-      "features": [
-        "features"
-      ],
-      "id": 10
     }
   ],
   "cat": [
