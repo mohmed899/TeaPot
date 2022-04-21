@@ -114,3 +114,30 @@ label.radio input:checked+span {
     height: 26px;
 
 }
+
+
+
+.cardImg{
+    width: 17.04em;
+    height: 15em;
+    border-bottom: 1px solid #ddddddb8;
+}
+
+.CardDisplayAsid{
+    display: inline-flex;
+    width: 17.2em;
+    margin:1em; 
+    margin-top: 3em;
+    height: 28.1em;
+    border: 1px solid rgba(147, 111, 20, 0.563);
+}
+.btn{
+    font-size: 1em;
+    width: auto;
+}
+.btn-dark,.btn-danger{
+    margin-left:.6em;
+}
+
+
+

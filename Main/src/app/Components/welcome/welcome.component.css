@@ -32,7 +32,7 @@ h6{
 .content{
 	position: absolute;
 	top: 20%;
-	left:7%;
+	margin-left: 4em;
 	/* transform: translateY(-70%); */
 }
 .container{
@@ -98,7 +98,7 @@ margin-bottom: 9em;
 
 .images{
 
-	margin-left: 40em;
+	margin-left:32em;
 	right: 0%;
     display: inline-block;
 	margin-top: 50px;
