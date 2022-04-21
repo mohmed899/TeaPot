@@ -12,7 +12,7 @@ export class ProductService {
 
 
   getByCategory(cat: string) {
-    return this.httpC.get(`/pro?cat=${cat}`)
+    return this.httpC.get(`http://localhost:3000/pro?cat=${cat}`)
   }
 
   getAll() {

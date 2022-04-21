@@ -9,45 +9,43 @@ import { MatTabChangeEvent } from '@angular/material/tabs';
 })
 export class ProductComponent implements OnInit {
 
-  constructor(private hand:ProductService) { }
+  constructor(private hand: ProductService) { }
 
-  products:any;
-  ff="accent";
+  products: any;
   ngOnInit(): void {
-    this.hand.getAll().subscribe( 
-      (data)=>{
-        this.products=data
-      console.log(data);
+    this.hand.getAll().subscribe(
+      (data) => {
+        this.products = data
+        console.log(data);
       },
-      (e)=>{ console.log(e)}
+      (e) => { console.log(e) }
     )
-  
+
   }
 
 
-fun(tab:MatTabChangeEvent){
+  fun(tab: MatTabChangeEvent) {
 
-  console.log(tab.tab.textLabel );
-  var categoryName = tab.tab.textLabel;
-  if(categoryName=="All Products")
-    {
-      this.hand.getAll().subscribe( 
-        (data)=>{
-          this.products=data
-    
+    console.log(tab.tab.textLabel);
+    var categoryName = tab.tab.textLabel;
+    if (categoryName == "All Products") {
+      this.hand.getAll().subscribe(
+        (data) => {
+          this.products = data
+
         },
-        (e)=>{ console.log(e)}
+        (e) => { console.log(e) }
       )
     } else
-  this.hand.getByCategory(categoryName).subscribe( 
-    (data)=>{
-      console.log(data)
-      this.products=data
+      this.hand.getByCategory(categoryName).subscribe(
+        (data) => {
+          console.log(data)
+          this.products = data
 
-    },
-    (e)=>{ console.log(e)}
-  )
+        },
+        (e) => { console.log(e) }
+      )
 
-}
+  }
 
 }

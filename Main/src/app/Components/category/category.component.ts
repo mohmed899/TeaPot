@@ -14,7 +14,7 @@ export class CategoryComponent implements OnInit {
   ngOnInit(): void {
      this.Handel.getAll().subscribe(
        (data)=>{this.cats=data
-      
+        console.log(this.cats);
       },
        (e)=>{console.log(e)}
     )
