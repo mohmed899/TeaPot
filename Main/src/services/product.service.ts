@@ -50,7 +50,6 @@ export class ProductService {
 
   syncItems() {
     localStorage.setItem('items', JSON.stringify(this._items)); // sync the data
-
   }
 
   update( obj:any , Id:any ){
