@@ -69,6 +69,8 @@ h6{
 .row{
     margin-top: 3em;
     display: flex;
+	margin-left: 0;
+	margin-right:0 ;
 }
 
 #img1{
@@ -98,7 +100,7 @@ margin-bottom: 9em;
 
 .images{
 
-	margin-left:50em;
+	margin-left:46em;
 	right: 0%;
     display: inline-block;
 	margin-top: 50px;
